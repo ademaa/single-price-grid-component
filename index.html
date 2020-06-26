@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Single Price Grid Component</title>
+  <!-- google fonts  -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <!-- bootstrap link for css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: hsl(204, 43%, 93%);
+      font-family: 'Karla', sans-serif;
+      font-size: 16px;
+    }
+    .container{
+      width: 50%;
+      margin-top: 10%;
+      box-shadow: 3px 3px 12px 3px  hsl(218, 22%, 67%);
+      border-radius: 5px;
+    }
+    .toppart{
+      background-color: #fff;
+      padding: 3% 6%;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      line-height: 3;
+    }
+    h2{
+      color: hsl(179, 62%, 43%);
+      font-weight: 700;
+      margin: 10px auto;
+    }
+
+    .greenhead{
+      color: hsl(71, 73%, 54%);
+      font-weight: 400;
+      margin: 20px auto;
+    }
+    .greyhead{
+      color: hsl(218, 22%, 67%);
+      width: 80%;
+    }
+    .leftpart{
+      background-color: hsl(179, 62%, 43%);
+      border-bottom-left-radius: 5px;
+      color: #fff;
+      padding: 3% 6%;
+    }
+    .permonth{
+      font-weight: 400;
+      color: hsl(204, 43%, 93%);
+    }
+    .permonth span{
+      font-weight: 700;
+      font-size: 2.5rem;
+      margin-right: 15px;
+      color: #fff;
+    }
+    .leftpara{
+      font-weight: 400;
+      color: hsl(204, 43%, 93%);
+    }
+    .btn{
+      margin-top: 15px;
+      background-color: hsl(71, 73%, 54%);
+      width: 100%;
+      color: #fff;
+    }
+    .rightpart{
+      background-color: hsl(179, 65%, 45%);
+      padding: 3% 6%;
+      color: #fff;
+      border-bottom-right-radius: 5px;
+      line-height: 2;
+    }
+    .rightpart p{
+      width:250px;
+      color: hsl(204, 43%, 93%);
+      font-weight: 400;
+    }
+  </style>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="toppart col-md-12">
+        <h2>Join our community</h1>
+        <h3 class="greenhead">30-day, hassle-free money back guarantee</h2>
+        <p class="greyhead">Gain access to our full library of tutorials along with expert code reviews.
+        Perfect for any developers who are serious about honing their skills.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="leftpart col-md-6">
+        <h3>Monthly Subscription</h2>
+        <p class="permonth"><span>&dollar;29</span> per month</p>
+        <p class="leftpara">Full access for less than &dollar;1 a day</p>
+        <button type="button" class="btn btn-lg">Sign Up</button>
+      </div>
+
+      <div class="rightpart col-md-6">
+        <h3>Why Us</h2>
+        <p>Tutorials by industry experts
+        Peer &amp; expert code review
+        Coding exercises
+        Access to our GitHub repos
+        Community forum
+        Flashcard decks
+        New videos every week</p>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
